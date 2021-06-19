@@ -40,7 +40,7 @@ int main(){
     }
     else{
       if(pair >= 2){
-        count -= (ll)(pair * (pair - 1) / 2);
+        count -= ((ll)pair * (pair - 1) / 2);
         pair = 1;
       }
     }
